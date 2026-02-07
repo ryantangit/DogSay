@@ -1,0 +1,12 @@
+Parse the entire argument into a list of words
+create a new list that will be used to output lines
+for each word, 
+	track if the len(word) + curr_line exceeds max length, if so push to next
+	edgecase of word being greater than maxlength, and just truncate that word for now
+
+for each line,
+	add padding for uniform
+	<> for single lines
+	/ \, | |, \ / for multilines
+
+connect to dog_ascii
